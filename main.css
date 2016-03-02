@@ -1,0 +1,162 @@
+/*		General CSS		*/
+body{
+	background: #faf9f9;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+.container{
+	width:100%;
+}
+
+
+a {color: black;
+	font-family: 'Lato', sans-serif; 
+	font-size: 40px; 
+	margin-bottom: 0 0 20px 0; 
+    text-align: center;
+    display: inline;
+}
+
+
+/*		Header 		*/
+
+header{
+	display: block;
+	width: 100%;
+	height: 50px;
+	z-index: 99;
+	background-color: #FF606E;
+	
+}
+
+
+
+
+/*		Hero section 		*/
+
+.hero{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background-size:contain;  
+}
+
+
+.hero .caption h1{
+	color: black;
+	font-family:'Satisfy', cursive;
+	font-size: 100px;
+	font-weight: bold;
+    text-align: center;
+     
+}
+#navcontainer ul
+{
+padding: .2em 0;
+margin: 0;
+list-style-type: none;
+width: 100%;
+text-align: center;
+}
+
+#navlist li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
+
+/*		Challenge1 section 		*/
+
+
+.challenge1 .head{
+	padding: 100px 0;
+    background-color: #00DDD8;
+}
+
+
+.challenge1 .features_list{
+	margin-left: 50px;
+}
+
+.challenge1 .head h1{
+	color: #FFFFFF;
+	font-family: 'Satisfy', cursive;
+	font-size: 100px;
+	font-weight: bold;
+	line-height: 46px;
+	margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.challenge1 .features_list p{
+	color: black;
+	font-family: 'Lato', sans-serif; 
+	font-size: 40px; 
+	margin-bottom: 200px;
+    display: inline-block;
+    text-align: center;
+}
+
+/*		Challenge2 section 		*/
+
+.challenge2 .head{
+	padding: 100px 0;
+    background-color: #FF606E;
+}
+
+
+.challenge2 .features_list{
+	margin-left: 50px;
+    height: 1000px;
+    overflow: auto;
+}
+
+.challenge2 .head h1{
+	color: #FFFFFF;
+	font-family: 'Satisfy', cursive;
+	font-size: 100px;
+	font-weight: bold;
+	line-height: 46px;
+	margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.challenge2 .head p {
+	color: white;
+	font-family: 'Lato', sans-serif; 
+	font-size: 40px; 
+	margin-bottom: 45px;
+    text-align: center;
+}
+
+.challenge2 .features_list p{
+	color: black;
+	font-family: 'Lato', sans-serif; 
+	font-size: 40px; 
+	margin-bottom: 45px;
+    display: inline-block;
+    text-align: center;
+}
+
+.challenge2 .features_list ul li span{
+	display: inline-block;
+}
+
+
+/*		Footer 		*/
+footer{
+	padding: 50px 0;
+	text-align: center;
+    background-color:#00DDD8; 
+}
+
+
+
+
+
+
