@@ -1,0 +1,136 @@
+/* Type */
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700px;
+    font-size: 100px;
+    margin: auto;
+	text-align:center;
+	position: relative;
+    }
+
+h2{ 
+	font-size: 50px;
+	letter-spacing: 5px;
+	font-family: 'Lato', serif;
+	text-align: center;
+	}
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 10px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    margin: 0 0 23px 0;
+	text-align: center;
+    }
+p {
+ 	font-size: 50px;
+	letter-spacing: 5px;
+	line-height: 1;
+	font-family: 'Lato', serif;
+	margin: 0px 23px 23px 0px;
+	text-align: center;
+    }
+a {
+	color: black;
+	text-decoration: none;
+	align-content: center;
+	margin: 0px 10px 10px 0px;       
+	border-bottom: 5px #b3fff0;
+	border-top:5px #ffccff;
+	border-left:5px #ffccff;
+	border-right:5px #b3fff0; 
+	border-style: dotted;
+}
+/* Lines */
+
+.line {
+	width: 100%;
+	line-height: 5px;
+	display: inline-block;
+	justify-content: flex-end; 
+	border-style: dashed;
+	}
+.nav .line {
+	border-bottom: 5px #b3fff0;
+	border-top:10px #ffccff;
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 50px;
+	margin-top: 0px;
+	border-style:dotted;
+	}
+
+/* Nav */
+.nav {
+height:1000px;
+width:100%;
+align-content: center;
+display: block;
+}
+
+.nav .buttons {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+
+}
+
+/* Ch1 Table */
+.ch1 {
+	border-bottom: 5px #b3fff0;
+	border-top:5px #ffccff;
+	border-left:5px #ffccff;
+	border-right:5px #b3fff0; 
+	border-style: dotted;
+	height:800px;
+	width:100%;
+	align-content: center;
+	display: inline-block;
+}
+.ch1 table{
+    border-collapse: collapse;
+    width: 100%;
+	margin-bottom: 50px;
+}
+
+.ch1   th, td {
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+
+.ch1 tr:hover {background-color: #ffccff}
+.ch1 tr {
+     height: 50px;
+}
+.ch1 th {
+	background-color: #b3fff0;
+	font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 42px;
+    margin: 23px 23px 23px 23px;
+	height: 100px;
+	padding: 15px;
+	text-align: center;
+}
+
+/* Ch2 Table */
+.ch2 {
+	border-bottom: 5px #b3fff0;
+	border-top:5px #ffccff;
+	border-left:5px #ffccff;
+	border-right:5px #b3fff0; 
+	border-style: dotted;
+	height:600px;
+	width:100%;
+	align-content: center;
+	display: inline-block;
+}
+/* Footer */
+.footer {
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	align-content:flex-end;
+	}
